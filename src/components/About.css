@@ -1,0 +1,38 @@
+#about {
+    margin-top: 5rem;
+}
+
+.about {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* text-align: center; */
+}
+
+.about__data {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.about__data>h1 {
+    margin-top: 0;
+}
+
+.about__img {
+    margin: auto;
+    width: auto;
+    height: 270px;
+}
+
+@media only screen and (max-width: 800px) {
+    .about__data {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .about__img {
+        margin: auto;
+        width: auto;
+        height: 200px;
+    }
+}
