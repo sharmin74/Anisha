@@ -1,8 +1,10 @@
 #work {
+    margin-top: 12rem;
     text-align: center;
 }
 
 .work {
+    margin-top: 4rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

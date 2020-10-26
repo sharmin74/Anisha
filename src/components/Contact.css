@@ -1,0 +1,9 @@
+#contact{
+    margin-top: 12rem;
+    text-align: center;
+}
+
+#contact>p{
+    width: 50%;
+    margin: auto;
+}
